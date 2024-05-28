@@ -13,7 +13,7 @@ function Hero() {
     <div className="hero min-h-screen bg-primary flex items-center justify-center">
       <div className="hero-content font-mono flex flex-col items-center justify-center w-full h-full">
         <h1 className="mb-5 text-5xl font-bold text-white">The future of the mining industry</h1>
-        <p className="mb-5 text-white">"Clean Environment, Clean Responsibility, Clean Sourcing".</p>
+        <p className="mb-5 text-white">"Clean Environment, Clean Reputation, Clean Sourcing".</p>
         <div className="carousel-container">
           <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false} className="carousel">
             {images.map((image, index) => (
