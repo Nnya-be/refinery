@@ -4,15 +4,15 @@ import logo from './../assets/images/G2RLogo.webp'; // Update this path to your 
 
 function Navbar() {
   return (
-    <nav className="bg-shadesecondary p-4 shadow-lg">
+    <nav className="bg-white p-4 shadow-lg]">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <img src={logo} alt="Logo" className="h-10 w-10 mr-3" />
-          <Link to="/" className="text-2xl font-mono font-bold">GG Refinery</Link>
+          <Link to="/" className="text-2xl font-mono font-bold">G<sup>2</sup>Refinery</Link>
         </div>
-        <div className="hidden md:flex font-mono items-center space-x-4">
-          <Link to="/about" className=" text-black hover:text-gray-700">About</Link>
-          <Link to="/contact" className="text-black hover:text-gray-700">Contact</Link>
+        <div className="hidden md:flex text-shadesecondary font-mono items-center space-x-4">
+          <Link to="/about" className=" hover:text-gray-700">About</Link>
+          <Link to="/contact" className=" hover:text-gray-700">Contact</Link>
           </div>
           <span className='group flex space-x-5'>
           <button className="bg-white font-mono text-black px-4 py-2 hover:bg-blue-300 rounded">Login</button>
@@ -23,5 +23,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
-
+export default Navbar

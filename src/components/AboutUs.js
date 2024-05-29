@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function AboutUs() {
   return (
-    <section className="min-h-screen font-mono about-us bg-gray-100 p-8">
+    <section className="min-h-screen font-mono about-us bg-quaternary p-8">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold mb-4">About Us</h2>
         <p className="mb-6">Brief about the company...</p>
