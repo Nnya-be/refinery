@@ -1,15 +1,13 @@
-import React from 'react'
+import React from "react";
 
 function SectionSecondaryHeading() {
   return (
-    <div className=''>
-        <span className='text-zinc-950 font-bold text-4xl capitalize'>
-        Section Secondary Heading?
-        </span>
-        
+    <div className="">
+      <span className="text-slate-600 text-4xl capitalize">
+      The devoted special services
+      </span>
     </div>
-
-  )
+  );
 }
 
-export default SectionSecondaryHeading
+export default SectionSecondaryHeading;
