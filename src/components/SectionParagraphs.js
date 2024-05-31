@@ -1,14 +1,18 @@
 import React from "react";
 
-function SectionParagraphs() {
+function SectionParagraphs(props) {
+  console.log(props.text)
+  const text = props.text
+  const color = props.color;
+  //   console.log(color);
+  const text_style = color
+    ? {
+        color: "#e5e0e0",
+      }
+    : {};
   return (
-    <div className="text-slate-400 text-justify text-center text-lg">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec turpis
-      dolor, mit malesuada non leo a, vehicula ornare nibh. Integer eget
-      bibendum nulla, neced hendrerit magna. Nunc vitae ipsum interdum, varius
-      magna ut, sollicitudin nunc. Pellentesque habitant morbi tristique
-      senectus et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-      turpis.
+    <div className="text-slate-500 text-justify text-center text-lg" style={text_style}>
+      {text}
     </div>
   );
 }
