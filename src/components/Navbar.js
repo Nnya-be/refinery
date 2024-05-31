@@ -15,9 +15,10 @@ function Navbar() {
           <Link to="/contact" className="text-black hover:text-gray-700">Contact</Link>
           </div>
           <span className='group flex space-x-5'>
-          <button className="bg-white font-mono text-black px-4 py-2 hover:bg-blue-300 rounded">Login</button>
-          <button className="bg-blue-500 font-mono text-black px-4 py-2 hover:bg-blue-300 rounded">Sign Up</button>
-          </span>
+            <Link to='/login' className="bg-white font-mono text-black px-4 py-2 hover:bg-blue-300 rounded">Login</Link>
+            <Link to='/signup' className="bg-white font-mono text-black px-4 py-2 hover:bg-blue-300 rounded">Signup</Link>
+
+                    </span>
         </div>
     </nav>
   );
