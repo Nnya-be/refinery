@@ -7,7 +7,7 @@ import OurSkill from '../components/OurSkill'
 function About() {
   return (
     <div className='text-white '>
-      <PageHero></PageHero>
+      <PageHero heading='About Us'></PageHero>
       <BenefitsSection></BenefitsSection>
       <WhoSection></WhoSection>
       <OurSkill></OurSkill>

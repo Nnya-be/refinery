@@ -12,6 +12,7 @@ function Navbar() {
         </div>
         <div className="hidden md:flex font-mono items-center space-x-4">
           <Link to="/about" className=" text-black hover:text-gray-700">About</Link>
+          <Link to="/services" className="text-black hover:text-gray-700">Services</Link>
           <Link to="/contact" className="text-black hover:text-gray-700">Contact</Link>
           </div>
           <span className='group flex space-x-5'>

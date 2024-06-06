@@ -1,7 +1,7 @@
 import React from "react";
 
 function SectionParagraphs(props) {
-  console.log(props.text)
+  // console.log(props.text)
   const text = props.text
   const color = props.color;
   //   console.log(color);
