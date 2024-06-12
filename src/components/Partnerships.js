@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Participation() {
+function Partnerships() {
   return (
     <section className="min-h-screen participation p-8">
       <div className="container mx-auto text-center">
@@ -11,4 +11,4 @@ function Participation() {
   );
 }
 
-export default Participation;
+export default Partnerships;

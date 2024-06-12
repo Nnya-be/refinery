@@ -1,6 +1,6 @@
 import React from 'react'
 
-function OurServices() {
+function Services() {
   return (
     <section className="min-h-screen font-mono about-us bg-gray-100 p-8">
     <div className="container mx-auto text-center">
@@ -12,4 +12,4 @@ function OurServices() {
   )
 }
 
-export default OurServices
+export default Services;
