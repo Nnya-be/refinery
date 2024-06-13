@@ -11,3 +11,11 @@ body{
 .cursor-pointer {
   cursor: pointer;
 }
+
+header{
+  z-index: 100001 !important;
+}
+
+.btn-trade{
+  @apply px-7 py-2 bg-shadesecondary text-tertiary rounded hover:bg-shadesecondary-200 transition-all duration-300 hover:-translate-y-4
+}
