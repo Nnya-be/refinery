@@ -41,12 +41,12 @@ const Navbar = () => {
   ];
 
   return (
-    <header className={`w-full fixed top-0 left-0 right-0 ${isSticky ? 'bg-white border-b duration-300' : 'md:bg-transparent'}`}>
+    <header className={`w-full fixed top-0 left-0 right-0 ${isSticky ? 'bg-white border-b duration-300' : 'md:bg-shadesecondary'}`}>
       <nav className={`py-4 lg:px-14 px-4 ${isSticky ? 'sticky top-0 right-0' : ''}`}>
         <div className='flex justify-between smooth-scroll cursor-pointer items-center text-base gap-8'>
           <a href='/' className='text-2xl font-semibold flex items-center space-x-3'>
             <img src={Logo} alt="logo" className='w-10 inline-block items-center'/>
-            <span className='text-shadesecondary'>G<sup>2</sup>REFINERY</span>
+            <span className='text-primary'>G<sup>2</sup>REFINERY</span>
           </a>
               
           {/* Nav items for large devices */}
@@ -58,7 +58,7 @@ const Navbar = () => {
                 smooth={true} 
                 offset={-100} 
                 key={path} 
-                className="block text-base text-black hover:text-shadesecondary first:font-medium">
+                className="block text-base text-black hover:text-indigo-500 first:font-medium">
                 {link}
               </Link>
             ))}
@@ -66,7 +66,7 @@ const Navbar = () => {
 
           {/* Btn for large devices */}
           <div className="space-x-12 hidden lg:flex items-center">
-            <a href='/' className='hidden lg:flex items-center text-shadesecondary hover:text-primary'>Login</a>
+            <a href='/' className='hidden lg:flex items-center text-blue hover:text-primary'>Login</a>
             <button className='bg-primary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-indigo-600'>Sign Up</button>
           </div>
 

@@ -2,22 +2,21 @@ import React from 'react';
 // import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import AboutUs from '../components/AboutUs';
-import Participation from '../components/Partnerships';
-// import Accreditation from '../components/Accreditation';
-// import OurServices from '../components/OurServices';
-// import Footer from '../components/Footer';
-// import OurMembership from '../components/OurMembership';
+import Partnerships from '../components/Partnerships';
+import Services from '../components/OurServices';
+import OurMembership from '../components/OurMembership';
+
 
 function Home() {
   return (
     <div>
       
       <Hero />
-      <Participation />
+      <Services />
       <AboutUs />
-      {/* <Accreditation/>
-      <OurServices /> */}
-      {/* <OurMembership /> */}
+      <Partnerships />
+      <OurMembership />
+      
     </div>
   );
 }

@@ -1,7 +1,8 @@
 import { Carousel } from "flowbite-react";
 import React from 'react';
 import goldImage from '../assets/images/goldImage.jpeg';
-import liquidGold from '../assets/images/liquidGold.webp'
+import liquidGold from '../assets/images/liquidGold.webp';
+import Worker from '../assets/icons/hero3.avif';
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
         <Carousel className="w-full mx-auto">
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
             <div>
-              <img src={goldImage} alt="Gold Image" className="rounded"/>
+              <img src={goldImage} alt="Gold Image" className="rounded h-[756px]"/>
             </div>
             {/* {Hero-Text} */}
             <div className="md:w-1/2">
@@ -25,7 +26,7 @@ const Hero = () => {
           
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
             <div>
-              <img src={liquidGold} alt="Gold Metal Tool" className="rounded"/>
+              <img src={liquidGold} alt="Gold Metal Tool" className="rounded h-[756px]"/>
             </div>
             {/* {Hero-Text} */}
             <div className="md:w-1/2">
@@ -40,7 +41,7 @@ const Hero = () => {
           
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
             <div>
-              <img src='https://images.unsplash.com/photo-1583483027593-4361704de61c' alt="Gold Metal" className="rounded"/>
+              <img src={Worker} alt="Expert/Worker" className="rounded h-[756px]"/>
             </div>
             {/* {Hero-Text} */}
             <div className="md:w-1/2">

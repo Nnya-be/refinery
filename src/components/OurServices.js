@@ -1,15 +1,24 @@
 import React from 'react'
 
-function Services() {
-  return (
-    <section className="min-h-screen font-mono about-us bg-gray-100 p-8">
-    <div className="container mx-auto text-center">
-      <h2 className="text-3xl font-bold mb-4">Our Services</h2>
-      <p className="mb-6">Brief about the company...</p>
-      {/* <Link to="/about" className="bg-blue-500 text-white px-4 py-2 rounded">Read More</Link> */}
-    </div>
-  </section>
-  )
-}
+const Services = () => {
+    return (
+        <div className='md:px-14 px-4 py-16 max-w-screen-2xl mx-auto'>
+            <div className='text-center my-8'>
+                <h2 className='text-4xl text-primary font-semibold mb-2'>Our  Clients</h2>
+                <p className='text-primary'> We have been working with some Fortunes 500+ clients</p>
+
+                {/* {Company logo} */}
+                <div className='my-12 flex flex-wrap jsutify-between items-center gap-8'>
+                    <img src='../assets/icons/services1.webp' alt='' />
+                    <img src='../assets/icons/services1.webp' alt='' />
+                    <img src='../assets/icons/services1.webp' alt='' />
+                    <img src='../assets/icons/services1.webp' alt='' />
+                    <img src='../assets/icons/services1.webp' alt='' />
+                    <img src='../assets/icons/services1.webp' alt='' />
+                </div>
+            </div>
+        </div>
+    )
+};
 
 export default Services;
